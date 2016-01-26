@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E40FE79E1C56F81400FBC5C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40FE79D1C56F81400FBC5C5 /* AppDelegate.swift */; };
+		E40FE7A01C56F81400FBC5C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40FE79F1C56F81400FBC5C5 /* ViewController.swift */; };
+		E40FE7A31C56F81400FBC5C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40FE7A11C56F81400FBC5C5 /* Main.storyboard */; };
+		E40FE7A51C56F81400FBC5C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40FE7A41C56F81400FBC5C5 /* Assets.xcassets */; };
+		E40FE7A81C56F81400FBC5C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40FE7A61C56F81400FBC5C5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E40FE79A1C56F81400FBC5C5 /* Jogo da Velha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jogo da Velha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40FE79D1C56F81400FBC5C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E40FE79F1C56F81400FBC5C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E40FE7A21C56F81400FBC5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E40FE7A41C56F81400FBC5C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E40FE7A71C56F81400FBC5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E40FE7A91C56F81400FBC5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E40FE7971C56F81400FBC5C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E40FE7911C56F81400FBC5C5 = {
+			isa = PBXGroup;
+			children = (
+				E40FE79C1C56F81400FBC5C5 /* Jogo da Velha */,
+				E40FE79B1C56F81400FBC5C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E40FE79B1C56F81400FBC5C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40FE79A1C56F81400FBC5C5 /* Jogo da Velha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E40FE79C1C56F81400FBC5C5 /* Jogo da Velha */ = {
+			isa = PBXGroup;
+			children = (
+				E40FE79D1C56F81400FBC5C5 /* AppDelegate.swift */,
+				E40FE79F1C56F81400FBC5C5 /* ViewController.swift */,
+				E40FE7A11C56F81400FBC5C5 /* Main.storyboard */,
+				E40FE7A41C56F81400FBC5C5 /* Assets.xcassets */,
+				E40FE7A61C56F81400FBC5C5 /* LaunchScreen.storyboard */,
+				E40FE7A91C56F81400FBC5C5 /* Info.plist */,
+			);
+			path = "Jogo da Velha";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E40FE7991C56F81400FBC5C5 /* Jogo da Velha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40FE7AC1C56F81400FBC5C5 /* Build configuration list for PBXNativeTarget "Jogo da Velha" */;
+			buildPhases = (
+				E40FE7961C56F81400FBC5C5 /* Sources */,
+				E40FE7971C56F81400FBC5C5 /* Frameworks */,
+				E40FE7981C56F81400FBC5C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jogo da Velha";
+			productName = "Jogo da Velha";
+			productReference = E40FE79A1C56F81400FBC5C5 /* Jogo da Velha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40FE7921C56F81400FBC5C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Wladimir Teixeira Neto";
+				TargetAttributes = {
+					E40FE7991C56F81400FBC5C5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HBHE4BM8B9;
+					};
+				};
+			};
+			buildConfigurationList = E40FE7951C56F81400FBC5C5 /* Build configuration list for PBXProject "Jogo da Velha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E40FE7911C56F81400FBC5C5;
+			productRefGroup = E40FE79B1C56F81400FBC5C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E40FE7991C56F81400FBC5C5 /* Jogo da Velha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E40FE7981C56F81400FBC5C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40FE7A81C56F81400FBC5C5 /* LaunchScreen.storyboard in Resources */,
+				E40FE7A51C56F81400FBC5C5 /* Assets.xcassets in Resources */,
+				E40FE7A31C56F81400FBC5C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40FE7961C56F81400FBC5C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40FE7A01C56F81400FBC5C5 /* ViewController.swift in Sources */,
+				E40FE79E1C56F81400FBC5C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E40FE7A11C56F81400FBC5C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40FE7A21C56F81400FBC5C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E40FE7A61C56F81400FBC5C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40FE7A71C56F81400FBC5C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E40FE7AA1C56F81400FBC5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E40FE7AB1C56F81400FBC5C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E40FE7AD1C56F81400FBC5C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jogo da Velha/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wlad.Jogo-da-Velha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E40FE7AE1C56F81400FBC5C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jogo da Velha/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wlad.Jogo-da-Velha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40FE7951C56F81400FBC5C5 /* Build configuration list for PBXProject "Jogo da Velha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40FE7AA1C56F81400FBC5C5 /* Debug */,
+				E40FE7AB1C56F81400FBC5C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40FE7AC1C56F81400FBC5C5 /* Build configuration list for PBXNativeTarget "Jogo da Velha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40FE7AD1C56F81400FBC5C5 /* Debug */,
+				E40FE7AE1C56F81400FBC5C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40FE7921C56F81400FBC5C5 /* Project object */;
+}
